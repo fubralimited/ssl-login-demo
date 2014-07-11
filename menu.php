@@ -13,7 +13,7 @@
 <p>This site demonstrates the process of logging in to a website using an SSL client certificate (and the corresponding private key.)</p>
 
 <p>If you haven't already done so, you should probably read the accompanying blog post:<br />
-<a href="http://catn.com/2014/06/16/passwords-are-past-it-are-certificates-the-key-to-better-online-security">"Passwords are past it - are certificates the key to better online security?"</a>
+<a href="http://catn.com/2014/07/11/passwords-are-past-it-are-certificates-the-key-to-better-online-security/">"Passwords are past it - are certificates the key to better online security?"</a>
 
 <h2>Take the demo</h2>
 
