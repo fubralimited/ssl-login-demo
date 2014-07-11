@@ -1,0 +1,20 @@
+# http://httpd.apache.org/docs/2.2/mod/mod_ssl.html#sslverifyclient
+# 
+#            none: no client Certificate is required at all
+#  optional_no_ca: the client may present a valid Certificate
+#                  but it need not to be (successfully) verifiable.
+#        optional: the client may present a valid Certificate
+#         require: the client MUST present a valid Certificate
+#
+SSLVerifyClient require 
+
+# http://httpd.apache.org/docs/2.2/mod/mod_ssl.html#sslverifydepth
+# maximum number of certificates deep to look when following a client cert to the CA root
+#
+SSLVerifyDepth 0
+  # this means that only CA certs will be allowed to log in! 
+
+# Force a redirect to HTTPS
+RewriteEngine On
+RewriteCond %{ENV:using_ssl} !=yes
+RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [L,R=permanent]

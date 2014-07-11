@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url(//fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+body
+{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 95%;
+
+    background-color: #494646;
+}
+
+div#main
+{
+    /* centered div */
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding: 15px;
+
+    max-width: 960px;
+
+    border: 1px solid #101010;
+    border-radius: 8px;
+
+    /* first try white background, then a slightly transparent white */
+    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.9);
+
+    /* first try is a solid grey shadow, second is a semi-transparent black */
+    box-shadow: 10px 10px 5px #999999;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+h1
+{
+    color: #CC3838;
+    text-shadow: #000000 1px 1px;
+    font-size: 48px;
+}
+
+h2
+{
+    color: #000000;
+    font-size: 1.5em;
+}
+
+a
+{
+    color: #3B96D2;
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: disc;
+}
+div.url
+{
+    font-family: monospace;
+}
+
