@@ -8,6 +8,9 @@ body
     font-size: 95%;
 
     background-color: #494646;
+
+    /* text-overflow: ellipsis; */
+    word-wrap: break-word;
 }
 
 div#main

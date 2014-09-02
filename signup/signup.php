@@ -237,6 +237,10 @@ if (!$sslClientVerified)
 }
 
 ?>
+
+<hr />
+<p><a href="../">Certs 'R' Us</a>, a demo site by <a href="http://www.bennish.net">Ben Kennish</a>, with <a href="http://catn.com">CatN</a>, 2014.</p>
+
 </div>
 </body>
 </html>
