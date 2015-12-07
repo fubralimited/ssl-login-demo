@@ -16,5 +16,5 @@ SSLVerifyDepth 0
 
 # Force a redirect to HTTPS
 RewriteEngine On
-RewriteCond %{ENV:using_ssl} !=yes
+RewriteCond %{ENV:usingSSL} !=yes
 RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [L,R=permanent]
