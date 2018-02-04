@@ -18,7 +18,7 @@
 <h2>Take the demo</h2>
 
 <ol>
-    <li><em>OPTIONAL:</em> <a href="https://www.startssl.com/?app=11&amp;action=regform" target="_blank">Get a 'proper' SSL certificate from StartSSL (free)</a> or another certificate authority (CA)</li>
+    <li><em>OPTIONAL:</em>Get a 'proper' SSL certificate from a certificate authority (CA)</li>
     <li><a href="signup/">Sign up with a certificate</a> (a demo one will be generated for you if necessary, or you can present your own)</a></li>
     <li><a href="login/">Log in using that certificate</a></li>
 </ol>
